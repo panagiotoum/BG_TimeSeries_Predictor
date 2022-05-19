@@ -1,4 +1,4 @@
-# BG_TimeSeries_Predictor
+# Blood Glucose (BG) Timeseries Forecasting with Deep Neural Networks and Deep Reinforcement Learning
 
 ## Dataset: Ohio Dataset
 In the Ohio data, we provide you with 8 features that could be used to predict future blood glucoe values. The data is extracted from the xml files to which the Ohio-publication refers.
