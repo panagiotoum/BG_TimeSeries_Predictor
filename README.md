@@ -1,5 +1,5 @@
 # Blood Glucose (BG) Timeseries Forecasting with Deep Neural Networks and Deep Reinforcement Learning
-description of the given code....
+In this repository three models (LSTM, bi-LSTM, Deep RL model) were created in order to make blood glucose prediction in persons, using the Ohio data set.
 
 ## Dataset: Ohio Dataset
 In the Ohio data, we provide you with 8 features that could be used to predict future blood glucoe values. The data is extracted from the xml files to which the Ohio-publication refers.
@@ -15,6 +15,10 @@ Features:
 - carbInput: self-reported carbohydrate input
 
 ### Data Preprocessing 
+The data preprocessing code is in data_preprocessing.py file in preprocessing folder, which includes:
+- Missing values handling.
+- Normalization.
+- Creating Input Windows for training.
 
 ### Evaluation Metrics
 For the evaluation we used the metrics of RMSE (Root Mean Square Error), MARD (Mean Absolute Relative Difference) and CC (Correlation Coefficient).
