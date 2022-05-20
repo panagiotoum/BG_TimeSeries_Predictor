@@ -36,13 +36,19 @@ pip install mpi4py
 ```
 python main_lstm.py
 ```
+Arguments:<br />
+--data_type : Choose between **new** (OhioData2020) or **old** (OhioData2018).<br />
+--model_name : Choose between **lstm** or **bilsmt** architectures.<br />
+--ph : Prediction Horizons, choose between **6** (30 min) or **12** (60 min)<br />
+--save_path: Path to save the models and plots<br />
+
 **Time-series prediction with Deep RL (Deep Deterministic Policy Gradien(DDPG)):** Read data, train and save the model, make predicts and display the results or save it in csv file.
 ```
 python main_drl.py
 ```
-Arguments for both python files:<br />
+Arguments:<br />
 --data_type : Choose between **new** (OhioData2020) or **old** (OhioData2018).<br />
---model_name : Choose between **lstm** or **bilsmt** architectures.<br />
+--model_name : Choose between **Noise** or **NoNoise** architectures.<br />
 --ph : Prediction Horizons, choose between **6** (30 min) or **12** (60 min)<br />
 --save_path: Path to save the models and plots<br />
 
