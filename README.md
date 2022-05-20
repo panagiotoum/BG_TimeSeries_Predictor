@@ -43,10 +43,10 @@ Arguments:<br />
 --save_path: Path to save the models and plots<br />
 
 ## Results (e.g. Bi-LSTM)
-1. Timeseries prediction 
+1. Timeseries prediction
 
-![alt text](http://url/to/img.png)
+![alt text](Figures/plot.png)
 
 3. Evaluation Metrics
-4. 
-![alt text](http://url/to/img.png)
+
+![alt text](Figures/sample_csv.png)
