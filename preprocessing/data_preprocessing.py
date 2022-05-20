@@ -56,7 +56,7 @@ def data_pre(df):
 #n_predictions: number of timesteps for prediction
 
 # create sliding windows for training
-def sliding_windows1(data_x,data_y, seq_length, n_predictions):
+def sliding_windows(data_x,data_y, seq_length, n_predictions):
     x = []
     y = []
 
