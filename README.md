@@ -41,6 +41,7 @@ Arguments:<br />
 --model_name : Choose between **lstm** or **bilsmt** architectures.<br />
 --ph : Prediction Horizons, choose between **6** (30 min) or **12** (60 min)<br />
 --save_path: Path to save the models and plots<br />
+--data_path: Path to load the data
 
 **Time-series prediction with Deep RL (Deep Deterministic Policy Gradien(DDPG)):** Read data, train and save the model, make predicts and display the results or save it in csv file.
 ```
@@ -51,6 +52,7 @@ Arguments:<br />
 --model_name : Choose between **Noise** or **NoNoise** architectures.<br />
 --ph : Prediction Horizons, choose between **6** (30 min) or **12** (60 min)<br />
 --save_path: Path to save the models and plots<br />
+--data_path: Path to load the data
 
 ## Results (e.g. Bi-LSTM)
 1. Timeseries prediction
